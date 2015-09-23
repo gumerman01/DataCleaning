@@ -51,4 +51,4 @@ dsSd <- apply(dsMerged[3:563], 2, sd)       #Calculate Standard deviation
 dsMergedMeans <- ddply(dsMerged, .(Subject,Activity), colwise(mean))
 
 #write the output file
-write.table(dsMergedMeans, "./TidyDataSet.txt", row.name=FALSE)
+write.table(dsMergedMeans, "./TidyDataSet.txt", row.name=FALSE, sep = ",")
