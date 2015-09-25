@@ -15,10 +15,21 @@ You should create one R script called run_analysis.R that does the following.
 ##run_analysis.R
 Contains All the steps to download and transform the original data into the tidy dataset 
 mentioned in point 5 of the instructions.
-File is formatted as a comma delimited file. 
+- First the zip file is downloaded and unzipped.
+- Activity labels, subjects, activity features, test and train measurements are loaded.
+- Activity codes are replaced by activity labels.
+- Feature labels are added to the column names in the measurement datasets.
+- Subject and activity vectors are column bonded to measurement datasets.
+- Both Test and Train datasets are row bonded together in dsMerged dataset.
+- Means for all columns is calculated and stored in dsMean dataset.
+- Standard deviation for all columns is calculated and stored in dsSd dataset.
+- A tidy dataset (dsMergedMeans) is created calculating the means grouping subject and activity.
+- Resulting dataset is saved to a txt file. 
+
 
 ##TidyDataSet.txt
 The resulting file of running the script run_analysis.R
+This file is formatted as a comma delimited file. 
 
 ##CodeBook.md
 Contains an explanation of the contents of the TidyDataSet, indicating the name of the 

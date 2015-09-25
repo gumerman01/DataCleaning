@@ -30,12 +30,13 @@ Notes:
 Subject:	30 subjects  were used for these tests. The number in this column (from 1 
 			to 30) identifies the sbject 
 Activity:	This column specifies the type of activity being perfomed by the subject
-		1  = WALKING
-		2 = WALKING_UPSTAIRS
-		3 = WALKING_DOWNSTAIRS
-		4 = SITTING
-		5 = STANDING
-		6 = LAYING
+    1  = WALKING
+    2 = WALKING_UPSTAIRS
+    3 = WALKING_DOWNSTAIRS
+    4 = SITTING
+    5 = STANDING
+    6 = LAYING
+
 tBodyAcc-mean()-X		
 tBodyAcc-mean()-Y		
 tBodyAcc-mean()-Z		
