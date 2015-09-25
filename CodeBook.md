@@ -27,20 +27,14 @@ Notes:
 - Each feature vector is a row on the text file.
 
 ##Variables:
-Subject:	30 subjects  were used for these tests. The number in this column (from 1 to 30) identifies the subject. 
- 
-Activity:	This column specifies the type of activity being perfomed by the subject
+Subject:	30 subjects  were used for these tests. The number in this column (from 1 to 30) identifies the subject.  
+Activity:	This column specifies the type of activity being perfomed by the subject. 
 
     1  = WALKING
-
     2 = WALKING_UPSTAIRS
-
     3 = WALKING_DOWNSTAIRS
-
     4 = SITTING
-
     5 = STANDING
-
     6 = LAYING
 
 tBodyAcc-mean()-X		
